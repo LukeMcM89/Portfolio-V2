@@ -1,5 +1,5 @@
 # Portfolio-V2
-The second iteration of my professional development portfolio.
+The second iteration of my professional web development portfolio.
 
 Link to deployed website: https://lukemcm89.github.io/Portfolio-V2/
 
