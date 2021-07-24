@@ -2,67 +2,58 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css" />
     <script src="https://kit.fontawesome.com/c27d9168a3.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/style.css" />
     <title>Luke McMurtrie's Portfolio</title>
-
 </head>
 
 <body>
-    <!--Add img line 18-->
+    <!--NavBar-->
     <header>
         <nav class="navbar is-black" role="navigation" aria-label="main navigation">
             <div class="navbar-brand">
                 <a class="navbar-item" href="index.html">
-                    <img src="">
+                    <img src="" />
                 </a>
             </div>
             <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
                 data-target="my-workBasicBar"></a>
             <div id="my-workBasicBar" class="navbar-menu">
                 <div class="navbar-start">
-                    <a class="navbar-item" href="index.html">
-                        Home
-                    </a>
-                    <a class="navbar-item" href="my-work.html">
-                        Portfolio
-                    </a>
+                    <a class="navbar-item" href="index.html"> Home </a>
+                    <a class="navbar-item" href="my-work.html"> Portfolio </a>
                     <div class="navbar-item has-dropdown is-hoverable">
-                        <a class="navbar-link">
-                            More
-                        </a>
+                        <a class="navbar-link"> More </a>
                         <div class="navbar-dropdown">
-                            <a class="navbar-item" href="contact.html">
-                                Contact Me
-                            </a>
+                            <a class="navbar-item" href="contact.html"> Contact Me </a>
                         </div>
                     </div>
                 </div>
             </div>
         </nav>
-
     </header>
 
-    <!--Don't forget work imgs lines 58, ,-->
+    <!--Portfolio Cards-->
 
-    <section class="section">
+    <section class="section is-hidden-mobile">
         <div class="container">
             <h3 class="title has-text-centered is-size-4">Portfolio</h3>
-            <div class="columns mt-5 is-8 is-variable">
+            <div class="columns mt-5 is-8 is-variable is-centered">
                 <div class="column is-4-tablet is-3-desktop">
                     <div class="card">
                         <div class="card-image has-text-centered px-6">
-                            <img src="assets/Project_Horoscope.png" alt="A screenshot of a web-development project">
+                            <img src="./assets/password_gen.png" alt="A screenshot of a web-development project" />
                         </div>
                         <div class="card-content">
-                            <p class="title is-size-5">Horoscope Project</p>
-                            <p class="">This group project features a Astrological Chart API as well as a Lunar Phase
-                                API. <br> <br> When a user inputs their birth information, they are presented with their
-                                horoscope
-                                reading. The current phase of the lunar cycle for that day is also available.</p>
+                            <p class="title is-size-5">Password Generator</p>
+                            <p class="">
+                                This application is a password generator. <br /><br />
+                                The user is offered parameter prompts that result in a
+                                customized, randomized password.
+                            </p>
                         </div>
                         <footer class="card-footer">
                             <p class="card-footer-item">
@@ -70,15 +61,23 @@
                             </p>
                         </footer>
                     </div>
+                </div>
+                <div class="div.column is-4-tablet is-3-desktop">
                     <div class="card">
                         <div class="card-image has-text-centered px-6">
-                            <img src="./assets/password_gen.png"
-                                alt="A screenshot of a password generator web-application">
+                            <img src="./assets/Project_Horoscope.png"
+                                alt="A screenshot of a password generator web-application" />
                         </div>
                         <div class="card-content">
-                            <p class="title is-size-5">Password Generator</p>
-                            <p class="">This application is a password generator. <br><br> The user is offered parameter
-                                prompts that result in a customized, randomized password.</p>
+                            <p class="title is-size-5">Horoscope Project</p>
+                            <p class="">
+                                This group project features a Astrological Chart API as well
+                                as a Lunar Phase API. <br />
+                                <br />
+                                When a user inputs their birth information, they are presented
+                                with their horoscope reading. The current phase of the lunar
+                                cycle for that day is also available.
+                            </p>
                         </div>
                         <footer class="card-footer">
                             <p class="card-footer-item">
@@ -86,13 +85,18 @@
                             </p>
                         </footer>
                     </div>
+                </div>
+                <div class="column is-4-tablet is-3-desktop">x
                     <div class="card">
                         <div class="card-image has-text-centered px-6">
-                            <img src="./assets/day_planner.png" alt="A screenshot of a day-planner web-application">
+                            <img src="./assets/day_planner.png" alt="A screenshot of a day-planner web-application" />
                         </div>
                         <div class="card-content">
                             <p class="title is-size-5">Day Planner</p>
-                            <p class="">This application allows the user to schedule events, notes, etc. within specified time slots to help schedule their day. </p>
+                            <p class="">
+                                This application allows the user to schedule events, notes,
+                                etc. within specified time slots to help schedule their day.
+                            </p>
                         </div>
                         <footer class="card-footer">
                             <p class="card-footer-item">
@@ -104,8 +108,6 @@
             </div>
         </div>
     </section>
-
-
 </body>
 
 </html>
