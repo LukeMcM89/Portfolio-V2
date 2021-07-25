@@ -14,3 +14,7 @@ Thank you for your time!
 Link to deployed website: https://lukemcm89.github.io/Portfolio-V2/
 
 Link to my GitHub repository: https://github.com/LukeMcM89?tab=repositories
+
+<img width="1412" alt="portfolio screen" src="https://user-images.githubusercontent.com/80003989/126912440-89150903-a7a4-411c-abbe-2f676829474b.png">
+
+<img width="1440" alt="portfolio2" src="https://user-images.githubusercontent.com/80003989/126912491-a851785d-2880-45a6-9842-58bdc367a39e.png">
