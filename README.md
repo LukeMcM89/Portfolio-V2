@@ -7,6 +7,9 @@ My portfolio features links to my professional resume, my GitHub and my LinkedIn
 
 To see how far my portfolio has already come, check out the link below to my first portfolio!
 
+In the future, I would like to re-scale the size of my photo. I wasn't able to figure out how to  get it to an adequate size. 
+I would also like to get the contact form to function correctly. 
+
 My first portfolio: https://lukemcm89.github.io/Initial-Portfolio/
 
 Thank you for your time!
