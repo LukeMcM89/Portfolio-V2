@@ -25,6 +25,8 @@ Link to my [GitHub repository](https://github.com/LukeMcM89?tab=repositories).
 
 <img width="1440" alt="portfolio2" src="https://user-images.githubusercontent.com/80003989/126912491-a851785d-2880-45a6-9842-58bdc367a39e.png">
 
+<img width="1440" alt="Updated_Portfolio" src="https://user-images.githubusercontent.com/80003989/134401143-74ec9981-226d-427a-96c4-18284b3df025.png">
+
 # License 
 
 MIT License
